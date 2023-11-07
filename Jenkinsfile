@@ -24,7 +24,7 @@ pipeline {
          steps {
             sh(script: 'docker compose up -d')
          }
-   //    }
+      }
    //    stage('Run Tests') {
    //       steps {
    //          sh(script: """
